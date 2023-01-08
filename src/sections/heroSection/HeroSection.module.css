@@ -107,6 +107,39 @@
     display: none;
 }
 
+.bgCircleGroup{
+    position: absolute;
+    top: 0;
+  }
+
+  .bgCircle1{
+    width: 20px;
+    position: relative;
+    top: 80px;
+    left: 20px;
+  }
+
+  .bgCircle2{
+    width: 35px;
+    position: relative;
+    top: 120px;
+    left: 156px;
+  }
+
+   .bgCircle3{
+    width: 30px;
+    position: relative;
+    top: 80px;
+    left: 520px;
+  }
+
+  .bgCircle4{
+    width: 50px;
+    position: relative;
+    top: 170px;
+    left: 850px;
+  }
+
 
 @media screen and (max-width: 675px) {
     .wrapper{
@@ -159,6 +192,38 @@
     }
 
 
+
+    .bgCircleGroup{
+        position: absolute;
+        top: 0;
+      }
+    
+      .bgCircle1{
+        width: 20px;
+        position: relative;
+        top: 140px;
+        left: 70px;
+      }
+    
+      .bgCircle2{
+        width: 35px;
+        position: relative;
+        top: 340px;
+        left: 110px;
+      }
+    
+       .bgCircle3{
+        width: 30px;
+        position: relative;
+        top: 660px;
+        left: 110px;
+      }
+    
+      .bgCircle4{
+         display: none;
+      }
   }
+
+
 
   

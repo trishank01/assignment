@@ -1,0 +1,81 @@
+.wrapper{
+    display: grid;
+    margin: 50px 60px;
+    padding: 20px 200px;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr auto;
+    row-gap: 10px;
+  
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 25px;
+    width: 400px;
+    border: 3px solid #E2E2E2;
+    padding: 50px 40px;
+    border-radius: 4px;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.card img {
+     margin: 10px auto;
+}
+
+.upperSideDetails{
+    width: 400px;
+}
+.lowerSideDetails{
+    width: 400px;
+}
+
+.para{
+    font-size: 22px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 15px;
+}
+
+.cardMargin{
+    margin-top: -400px!important;
+}
+
+
+
+.heading{
+    font-size: 24px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 600;
+}
+
+.paragraph{
+    font-size: 18px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--light-black);
+}
+
+.action{
+    color: var(--brand-blue);
+    font-size: 18px;
+    font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+
+}
+
+.action span {
+    font-size: 32px;
+    margin-top: 10px;
+
+}
+
+.LowerSidepara{
+    font-size: 22px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 15px;
+}
