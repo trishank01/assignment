@@ -11,9 +11,9 @@ const About = () => {
         <p className={styles.subHeading}>
           Watch the video about UAE or Offshore Company Registration{" "}
           <span>
-            {" "}
-            <img src={play} alt="" />{" "}
-          </span>{" "}
+           
+            <img src={play} alt="" />
+          </span>
         </p>
         <h1 className={styles.heading}>
           {" "}

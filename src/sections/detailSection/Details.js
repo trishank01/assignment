@@ -11,7 +11,7 @@ const Details = () => {
           Learn the ways in which you can benefit from a UAE/Offshore Company.
           Then get started on fulfilling your UAE dream.
         </p>
-        <p className={styles.action}>Claim a Free Quote</p>
+        <p className={styles.actionClaim}>Claim a Free Quote</p>
       </div>
       {cardList.map((card) => {
         return (
